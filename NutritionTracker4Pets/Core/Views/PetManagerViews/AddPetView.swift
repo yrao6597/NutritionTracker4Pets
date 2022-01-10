@@ -51,12 +51,20 @@ struct AddPetView: View {
                 TextField("Name", text: $name)
                 TextField("Color", text: $color)
                 TextField("Type", text: $type)
-                DatePicker("Date of Birth", selection: $dob)
+                DatePicker("Date of Birth", selection: $dob, displayedComponents: .date)
             }
             Button(action: {
                 ppm.addPetProfile(name: name, color: color, type: type, dob: dob)
             }, label: {
                 Text("Save")
+                    .fontWeight(.semibold)
+                    .foregroundColor(.white)
+                    .font(.title2)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.accentColor)
+                    .cornerRadius(15.0)
+                    .padding(15)
                 })
             }
         .navigationTitle("Add New Pet")

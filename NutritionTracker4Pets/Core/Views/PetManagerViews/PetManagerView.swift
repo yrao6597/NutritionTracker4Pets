@@ -3,14 +3,26 @@ import SwiftUI
 struct PetManagerView: View {
     @StateObject var ppm = PetProfileManager()
     var body: some View {
-        VStack {
-            List {
-                ForEach(ppm.petProfiles, id: \.id) {
-                    profile in PetManagerRowView(petName: profile.name ?? "None")
+        ZStack {
+            VStack {
+                HStack {
+                    Spacer()
+                    NavigationLink("Add New", destination: AddPetView())
+                    Spacer()
+                        .frame(width: 15.0)
                 }
-            }.listStyle(PlainListStyle())
-            ReusableButtonView(icon: "plus")
+                List {
+                    ForEach(ppm.petProfiles, id: \.id) {
+                        profile in PetManagerRowView(petName: profile.name ?? "None")
+                    }
+                }.listStyle(PlainListStyle())
+            }
+            
+            
+            
+            
         }
+        .navigationTitle("My Pet Manager")
     }
 }
 
