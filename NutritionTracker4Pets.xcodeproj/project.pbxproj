@@ -16,11 +16,11 @@
 		96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */; };
 		96EEB02D278B625D00BB728B /* PetProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB02C278B625C00BB728B /* PetProfileModel.swift */; };
 		96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB030278B63F000BB728B /* PetManagerView.swift */; };
-		96EEB034278B63FC00BB728B /* PetManagerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB033278B63FC00BB728B /* PetManagerRowView.swift */; };
 		96EEB03A278B67A700BB728B /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB039278B67A700BB728B /* ProfilePicView.swift */; };
 		96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB042278B70EA00BB728B /* CoreData.xcdatamodeld */; };
 		96EEB047278B715B00BB728B /* PetProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB046278B715B00BB728B /* PetProfileManager.swift */; };
 		96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB05A278B85F600BB728B /* AddPetView.swift */; };
+		96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButtonView.swift; sourceTree = "<group>"; };
 		96EEB02C278B625C00BB728B /* PetProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileModel.swift; sourceTree = "<group>"; };
 		96EEB030278B63F000BB728B /* PetManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerView.swift; sourceTree = "<group>"; };
-		96EEB033278B63FC00BB728B /* PetManagerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerRowView.swift; sourceTree = "<group>"; };
 		96EEB039278B67A700BB728B /* ProfilePicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
 		96EEB043278B70EA00BB728B /* PetProfileContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetProfileContainer.xcdatamodel; sourceTree = "<group>"; };
 		96EEB046278B715B00BB728B /* PetProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileManager.swift; sourceTree = "<group>"; };
 		96EEB05A278B85F600BB728B /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
+		96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				96EEB030278B63F000BB728B /* PetManagerView.swift */,
-				96EEB033278B63FC00BB728B /* PetManagerRowView.swift */,
 				96EEB039278B67A700BB728B /* ProfilePicView.swift */,
 				96EEB05A278B85F600BB728B /* AddPetView.swift */,
+				96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */,
 			);
 			path = PetManagerViews;
 			sourceTree = "<group>";
@@ -225,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EEB020278B5CEA00BB728B /* HomeView.swift in Sources */,
-				96EEB034278B63FC00BB728B /* PetManagerRowView.swift in Sources */,
 				96EEB03A278B67A700BB728B /* ProfilePicView.swift in Sources */,
 				96EEB02D278B625D00BB728B /* PetProfileModel.swift in Sources */,
 				96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */,
@@ -234,6 +233,7 @@
 				96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */,
 				96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */,
 				96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */,
+				96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */,
 				96EEB00A278B48C000BB728B /* ContentView.swift in Sources */,
 				96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */,
 			);

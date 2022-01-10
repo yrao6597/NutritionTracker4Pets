@@ -6,9 +6,10 @@ struct PetManagerView: View {
         VStack {
             List {
                 ForEach(ppm.petProfiles, id: \.id) {
-                    profile in Text(profile.name ?? "NO_NAME")
+                    profile in PetManagerRowView(petName: profile.name ?? "None")
                 }
             }.listStyle(PlainListStyle())
+            ReusableButtonView(icon: "plus")
         }
     }
 }

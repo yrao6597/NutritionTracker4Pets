@@ -1,30 +1,37 @@
-//import SwiftUI
 //
-//struct PetManagerRowView: View {
-//    @StateObject var ppvm = PetProfileManager()
-//    let petProfile: PetProfile
-//    var body: some View {
-//        HStack(spacing: 0) {
-//            ProfilePicView()
-//            Spacer()
-//                .frame(width: 10.0)
-//            Text("\(petProfile.name ?? "NO_NAME")")
-//                .font(.title3)
-//                .fontWeight(.semibold)
-//                .frame(minWidth:50)
-//            Spacer()
-//            ReusableButtonView(icon: "chevron.right")
-//        }
-//    }
-//}
+//  PetManagerRowView.swift
+//  NutritionTracker4Pets
 //
-//struct PetManagerRowView_Previews: PreviewProvider {
-//    // refactoring??
-//    static var profile1 = PetProfile(name: "Hulu", color: "Grey", type: "Ragdoll", dob: Date())
-//    static var previews: some View {
-//        Group {
-//            PetManagerRowView(petProfile: profile1)
-//        }.previewLayout(.sizeThatFits)
-//        
-//    }
-//}
+//  Created by Yvonne Rao on 2022-01-09.
+//
+
+import SwiftUI
+
+struct PetManagerRowView: View {
+    let petName: String
+    
+    // @StateObject var ppm = PetProfileManager()
+
+    var body: some View {
+        ZStack {
+            HStack {
+                ProfilePicView()
+                Spacer()
+                    .frame(width: 15.0)
+                Text(petName)
+                    .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.semibold)
+                Spacer()
+                ReusableButtonView(icon: "chevron.right")
+            }
+        }
+    }
+}
+
+struct PetManagerRowView_Previews: PreviewProvider {
+    static var petName_ex = "Hulu"
+    static var previews: some View {
+        PetManagerRowView(petName: petName_ex)
+            .previewLayout(.sizeThatFits)
+    }
+}
