@@ -23,6 +23,7 @@
 		96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */; };
 		96FBC07D278BBF83001575F1 /* PetManagerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */; };
 		96FBC08127947446001575F1 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC08027947446001575F1 /* PetProfileView.swift */; };
+		96FBC08527947C97001575F1 /* FoodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC08427947C97001575F1 /* FoodManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerRowView.swift; sourceTree = "<group>"; };
 		96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerCardView.swift; sourceTree = "<group>"; };
 		96FBC08027947446001575F1 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
+		96FBC08427947C97001575F1 /* FoodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		96EEB01D278B5CBF00BB728B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				96FBC08327947C6C001575F1 /* FoodManagerViews */,
 				96EEB036278B649500BB728B /* PetManagerViews */,
 				96EEB01F278B5CEA00BB728B /* HomeView.swift */,
 				96EEB024278B5E2C00BB728B /* HomeImageView.swift */,
@@ -157,8 +160,16 @@
 			isa = PBXGroup;
 			children = (
 				96EEB046278B715B00BB728B /* PetProfileManager.swift */,
+				96FBC08427947C97001575F1 /* FoodManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		96FBC08327947C6C001575F1 /* FoodManagerViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoodManagerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */,
 				96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */,
 				96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */,
+				96FBC08527947C97001575F1 /* FoodManager.swift in Sources */,
 				96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */,
 				96EEB00A278B48C000BB728B /* ContentView.swift in Sources */,
 				96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */,
