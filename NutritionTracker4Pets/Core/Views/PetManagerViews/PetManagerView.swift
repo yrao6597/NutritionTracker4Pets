@@ -13,7 +13,12 @@ struct PetManagerView: View {
                 }
                 List {
                     ForEach(ppm.petProfiles, id: \.id) {
-                        profile in PetManagerRowView(petName: profile.name ?? "None")
+                        profile in
+                        NavigationLink(
+                            destination: PetProfileView(petName: profile.name ?? "", petType: profile.type ?? "", petColor: profile.color ?? ""),
+                            label: {
+                                PetManagerRowView(petName: profile.name ?? "None")
+                            })
                     }
                 }.listStyle(PlainListStyle())
             }

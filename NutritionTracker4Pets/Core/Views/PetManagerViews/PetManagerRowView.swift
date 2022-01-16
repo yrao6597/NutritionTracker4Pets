@@ -10,12 +10,11 @@ struct PetManagerRowView: View {
             HStack {
                 ProfilePicView()
                 Spacer()
-                    .frame(width: 15.0)
+                    .frame(width: 20.0)
                 Text(petName)
                     .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                     .fontWeight(.semibold)
                 Spacer()
-                ReusableButtonView(icon: "chevron.right")
             }
         }
     }
