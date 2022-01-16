@@ -21,6 +21,8 @@
 		96EEB047278B715B00BB728B /* PetProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB046278B715B00BB728B /* PetProfileManager.swift */; };
 		96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB05A278B85F600BB728B /* AddPetView.swift */; };
 		96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */; };
+		96FBC07D278BBF83001575F1 /* PetManagerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */; };
+		96FBC08127947446001575F1 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC08027947446001575F1 /* PetProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		96EEB046278B715B00BB728B /* PetProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileManager.swift; sourceTree = "<group>"; };
 		96EEB05A278B85F600BB728B /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
 		96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerRowView.swift; sourceTree = "<group>"; };
+		96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerCardView.swift; sourceTree = "<group>"; };
+		96FBC08027947446001575F1 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				96EEB039278B67A700BB728B /* ProfilePicView.swift */,
 				96EEB05A278B85F600BB728B /* AddPetView.swift */,
 				96FBC079278BB7DE001575F1 /* PetManagerRowView.swift */,
+				96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */,
+				96FBC08027947446001575F1 /* PetProfileView.swift */,
 			);
 			path = PetManagerViews;
 			sourceTree = "<group>";
@@ -224,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FBC08127947446001575F1 /* PetProfileView.swift in Sources */,
 				96EEB020278B5CEA00BB728B /* HomeView.swift in Sources */,
 				96EEB03A278B67A700BB728B /* ProfilePicView.swift in Sources */,
 				96EEB02D278B625D00BB728B /* PetProfileModel.swift in Sources */,
+				96FBC07D278BBF83001575F1 /* PetManagerCardView.swift in Sources */,
 				96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */,
 				96EEB047278B715B00BB728B /* PetProfileManager.swift in Sources */,
 				96EEB025278B5E2C00BB728B /* HomeImageView.swift in Sources */,

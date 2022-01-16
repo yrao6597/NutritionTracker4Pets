@@ -1,10 +1,3 @@
-//
-//  PetManagerRowView.swift
-//  NutritionTracker4Pets
-//
-//  Created by Yvonne Rao on 2022-01-09.
-//
-
 import SwiftUI
 
 struct PetManagerRowView: View {
@@ -35,3 +28,4 @@ struct PetManagerRowView_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
     }
 }
+

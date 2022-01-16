@@ -18,11 +18,8 @@ struct PetManagerView: View {
                 }.listStyle(PlainListStyle())
             }
             
-            
-            
-            
         }
-        .navigationTitle("My Pet Manager")
+        .navigationTitle("Pet Manager")
     }
 }
 
