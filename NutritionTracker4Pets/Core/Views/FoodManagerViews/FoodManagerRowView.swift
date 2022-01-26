@@ -14,10 +14,12 @@ struct FoodManagerRowView: View {
                         .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                         .fontWeight(.semibold)
                     Text(foodBrand)
+                        .font(.title3)
                 }
                 Spacer()
                 Text(foodType)
                     .multilineTextAlignment(.trailing)
+                    .foregroundColor(.gray)
                 
             }
         }

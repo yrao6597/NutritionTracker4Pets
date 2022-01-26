@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		964032ED27A0EF1900B3136E /* FoodProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032EC27A0EF1900B3136E /* FoodProfileView.swift */; };
+		964032F527A0F81200B3136E /* ReusableSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032F427A0F81200B3136E /* ReusableSearchBarView.swift */; };
 		96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */; };
 		96EEB00A278B48C000BB728B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB009278B48C000BB728B /* ContentView.swift */; };
 		96EEB00C278B48C300BB728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EEB00B278B48C300BB728B /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		964032EC27A0EF1900B3136E /* FoodProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProfileView.swift; sourceTree = "<group>"; };
+		964032F427A0F81200B3136E /* ReusableSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableSearchBarView.swift; sourceTree = "<group>"; };
 		96EEB004278B48C000BB728B /* NutritionTracker4Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker4Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTracker4PetsApp.swift; sourceTree = "<group>"; };
 		96EEB009278B48C000BB728B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		964032F227A0F7F000B3136E /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */,
+				964032F427A0F81200B3136E /* ReusableSearchBarView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		96EEAFFB278B48C000BB728B = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +138,8 @@
 				96FBC091279CE80C001575F1 /* FoodManagerViews */,
 				96EEB036278B649500BB728B /* PetManagerViews */,
 				96EEB01F278B5CEA00BB728B /* HomeView.swift */,
+				964032F227A0F7F000B3136E /* ReusableViews */,
 				96EEB024278B5E2C00BB728B /* HomeImageView.swift */,
-				96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,6 +275,7 @@
 				96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */,
 				96FBC08527947C97001575F1 /* FoodManager.swift in Sources */,
 				96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */,
+				964032F527A0F81200B3136E /* ReusableSearchBarView.swift in Sources */,
 				96EEB00A278B48C000BB728B /* ContentView.swift in Sources */,
 				96FBC093279CE820001575F1 /* FoodManagerView.swift in Sources */,
 				96FBC097279CE82C001575F1 /* AddFoodView.swift in Sources */,

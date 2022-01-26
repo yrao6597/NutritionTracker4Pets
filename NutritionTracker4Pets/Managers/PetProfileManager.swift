@@ -40,8 +40,15 @@ class PetProfileManager: ObservableObject {
         saveData()
     }
     
-    // updatePetProfile
-    // deletePetProfile
+    func deletePetProfile(petProfile: PetProfile){
+        container.viewContext.delete(petProfile)
+        do {
+            try container.viewContext.save()
+        } catch {
+            container.viewContext.rollback()
+            print("Failed to delete. \(error)")
+        }
+    }
     
     func getAllPetProfiles() {
         let request = NSFetchRequest<PetProfile>(entityName: "PetProfile")
@@ -51,7 +58,5 @@ class PetProfileManager: ObservableObject {
             print("Error fetching \(error)")
         }
     }
-    
-    
 }
 

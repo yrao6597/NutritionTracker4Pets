@@ -35,6 +35,16 @@ class FoodManager: ObservableObject {
         saveData()
     }
     
+    func deleteFood(food: Food){
+        container.viewContext.delete(food)
+        do {
+            try container.viewContext.save()
+        } catch {
+            container.viewContext.rollback()
+            print("Failed to delete. \(error)")
+        }
+    }
+    
     func getAllFood() {
         let request = NSFetchRequest<Food>(entityName: "Food")
         do {
