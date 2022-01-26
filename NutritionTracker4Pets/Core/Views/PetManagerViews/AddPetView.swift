@@ -56,15 +56,7 @@ struct AddPetView: View {
             Button(action: {
                 ppm.addPetProfile(name: name, color: color, type: type, dob: dob)
             }, label: {
-                Text("Save")
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .font(.title2)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(Color.accentColor)
-                    .cornerRadius(15.0)
-                    .padding(15)
+                SaveButtonView()
                 })
             }
         .navigationTitle("Add New Pet")

@@ -47,15 +47,7 @@ struct AddFoodView: View {
             Button(action: {
                 fm.addFood(name: name, type: type.foodType, brand: brand, comments: comments)
             }, label: {
-                Text("Save")
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .font(.title2)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(Color.accentColor)
-                    .cornerRadius(15.0)
-                    .padding(15)
+                SaveButtonView()
             })
             .navigationTitle("Add Food Record")
         }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		964032ED27A0EF1900B3136E /* FoodProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032EC27A0EF1900B3136E /* FoodProfileView.swift */; };
 		964032F527A0F81200B3136E /* ReusableSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032F427A0F81200B3136E /* ReusableSearchBarView.swift */; };
+		964032FB27A0FEB000B3136E /* SaveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032FA27A0FEB000B3136E /* SaveButtonView.swift */; };
+		964032FF27A0FEC300B3136E /* DeleteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032FE27A0FEC300B3136E /* DeleteButtonView.swift */; };
+		9640330227A0FECC00B3136E /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9640330127A0FECC00B3136E /* AddButtonView.swift */; };
 		96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */; };
 		96EEB00A278B48C000BB728B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB009278B48C000BB728B /* ContentView.swift */; };
 		96EEB00C278B48C300BB728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EEB00B278B48C300BB728B /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* Begin PBXFileReference section */
 		964032EC27A0EF1900B3136E /* FoodProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProfileView.swift; sourceTree = "<group>"; };
 		964032F427A0F81200B3136E /* ReusableSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableSearchBarView.swift; sourceTree = "<group>"; };
+		964032FA27A0FEB000B3136E /* SaveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButtonView.swift; sourceTree = "<group>"; };
+		964032FE27A0FEC300B3136E /* DeleteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButtonView.swift; sourceTree = "<group>"; };
+		9640330127A0FECC00B3136E /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 		96EEB004278B48C000BB728B /* NutritionTracker4Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker4Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTracker4PetsApp.swift; sourceTree = "<group>"; };
 		96EEB009278B48C000BB728B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,10 +76,21 @@
 		964032F227A0F7F000B3136E /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				964032F927A0FEA000B3136E /* Buttons */,
 				96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */,
 				964032F427A0F81200B3136E /* ReusableSearchBarView.swift */,
 			);
 			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		964032F927A0FEA000B3136E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				964032FA27A0FEB000B3136E /* SaveButtonView.swift */,
+				964032FE27A0FEC300B3136E /* DeleteButtonView.swift */,
+				9640330127A0FECC00B3136E /* AddButtonView.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		96EEAFFB278B48C000BB728B = {
@@ -269,11 +286,14 @@
 				96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */,
 				96EEB047278B715B00BB728B /* PetProfileManager.swift in Sources */,
 				96EEB025278B5E2C00BB728B /* HomeImageView.swift in Sources */,
+				9640330227A0FECC00B3136E /* AddButtonView.swift in Sources */,
 				96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */,
 				96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */,
 				96FBC09B279D0DBE001575F1 /* FoodManagerRowView.swift in Sources */,
+				964032FF27A0FEC300B3136E /* DeleteButtonView.swift in Sources */,
 				96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */,
 				96FBC08527947C97001575F1 /* FoodManager.swift in Sources */,
+				964032FB27A0FEB000B3136E /* SaveButtonView.swift in Sources */,
 				96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */,
 				964032F527A0F81200B3136E /* ReusableSearchBarView.swift in Sources */,
 				96EEB00A278B48C000BB728B /* ContentView.swift in Sources */,
