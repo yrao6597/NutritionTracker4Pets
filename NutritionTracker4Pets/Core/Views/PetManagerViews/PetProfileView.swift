@@ -15,7 +15,7 @@ struct PetProfileView: View {
                         .clipShape(Circle())
                         .shadow(radius: 8)
                     Spacer().frame(height: 20)
-                    Text("Hulu")
+                    Text(petName)
                         .font(.title)
                         .bold()
                 }
@@ -23,10 +23,6 @@ struct PetProfileView: View {
                 Spacer().frame(height: 30)
                 
                 VStack(alignment: .leading, spacing: 12) {
-                    HStack {
-                        Text("Name:")
-                        Text(petName)
-                    }
                     HStack {
                         Text("Color:")
                         Text(petColor)
