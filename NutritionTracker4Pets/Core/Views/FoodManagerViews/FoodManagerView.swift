@@ -1,10 +1,3 @@
-//
-//  FoodManagerView.swift
-//  NutritionTracker4Pets
-//
-//  Created by Yvonne Rao on 2022-01-22.
-//
-
 import SwiftUI
 
 struct FoodManagerView: View {
