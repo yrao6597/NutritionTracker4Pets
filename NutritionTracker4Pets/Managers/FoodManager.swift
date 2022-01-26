@@ -30,6 +30,7 @@ class FoodManager: ObservableObject {
         food.id = id
         food.name = name
         food.type = type
+        food.brand = brand
         food.comments = comments
         saveData()
     }

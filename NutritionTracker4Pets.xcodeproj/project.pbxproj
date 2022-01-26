@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964032ED27A0EF1900B3136E /* FoodProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964032EC27A0EF1900B3136E /* FoodProfileView.swift */; };
 		96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */; };
 		96EEB00A278B48C000BB728B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB009278B48C000BB728B /* ContentView.swift */; };
 		96EEB00C278B48C300BB728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EEB00B278B48C300BB728B /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		96EEB020278B5CEA00BB728B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB01F278B5CEA00BB728B /* HomeView.swift */; };
 		96EEB025278B5E2C00BB728B /* HomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB024278B5E2C00BB728B /* HomeImageView.swift */; };
 		96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */; };
-		96EEB02D278B625D00BB728B /* PetProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB02C278B625C00BB728B /* PetProfileModel.swift */; };
 		96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB030278B63F000BB728B /* PetManagerView.swift */; };
 		96EEB03A278B67A700BB728B /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB039278B67A700BB728B /* ProfilePicView.swift */; };
 		96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96EEB042278B70EA00BB728B /* CoreData.xcdatamodeld */; };
@@ -24,9 +24,13 @@
 		96FBC07D278BBF83001575F1 /* PetManagerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */; };
 		96FBC08127947446001575F1 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC08027947446001575F1 /* PetProfileView.swift */; };
 		96FBC08527947C97001575F1 /* FoodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC08427947C97001575F1 /* FoodManager.swift */; };
+		96FBC093279CE820001575F1 /* FoodManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC092279CE820001575F1 /* FoodManagerView.swift */; };
+		96FBC097279CE82C001575F1 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC096279CE82C001575F1 /* AddFoodView.swift */; };
+		96FBC09B279D0DBE001575F1 /* FoodManagerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC09A279D0DBE001575F1 /* FoodManagerRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		964032EC27A0EF1900B3136E /* FoodProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProfileView.swift; sourceTree = "<group>"; };
 		96EEB004278B48C000BB728B /* NutritionTracker4Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutritionTracker4Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EEB007278B48C000BB728B /* NutritionTracker4PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTracker4PetsApp.swift; sourceTree = "<group>"; };
 		96EEB009278B48C000BB728B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +40,6 @@
 		96EEB01F278B5CEA00BB728B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		96EEB024278B5E2C00BB728B /* HomeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageView.swift; sourceTree = "<group>"; };
 		96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButtonView.swift; sourceTree = "<group>"; };
-		96EEB02C278B625C00BB728B /* PetProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileModel.swift; sourceTree = "<group>"; };
 		96EEB030278B63F000BB728B /* PetManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerView.swift; sourceTree = "<group>"; };
 		96EEB039278B67A700BB728B /* ProfilePicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
 		96EEB043278B70EA00BB728B /* PetProfileContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetProfileContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		96FBC07C278BBF83001575F1 /* PetManagerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetManagerCardView.swift; sourceTree = "<group>"; };
 		96FBC08027947446001575F1 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
 		96FBC08427947C97001575F1 /* FoodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManager.swift; sourceTree = "<group>"; };
+		96FBC092279CE820001575F1 /* FoodManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManagerView.swift; sourceTree = "<group>"; };
+		96FBC096279CE82C001575F1 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		96FBC09A279D0DBE001575F1 /* FoodManagerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManagerRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +124,7 @@
 		96EEB01D278B5CBF00BB728B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96FBC08327947C6C001575F1 /* FoodManagerViews */,
+				96FBC091279CE80C001575F1 /* FoodManagerViews */,
 				96EEB036278B649500BB728B /* PetManagerViews */,
 				96EEB01F278B5CEA00BB728B /* HomeView.swift */,
 				96EEB024278B5E2C00BB728B /* HomeImageView.swift */,
@@ -137,7 +143,6 @@
 		96EEB02B278B624600BB728B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				96EEB02C278B625C00BB728B /* PetProfileModel.swift */,
 				96EEB042278B70EA00BB728B /* CoreData.xcdatamodeld */,
 			);
 			path = Models;
@@ -165,9 +170,13 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		96FBC08327947C6C001575F1 /* FoodManagerViews */ = {
+		96FBC091279CE80C001575F1 /* FoodManagerViews */ = {
 			isa = PBXGroup;
 			children = (
+				96FBC092279CE820001575F1 /* FoodManagerView.swift */,
+				96FBC096279CE82C001575F1 /* AddFoodView.swift */,
+				96FBC09A279D0DBE001575F1 /* FoodManagerRowView.swift */,
+				964032EC27A0EF1900B3136E /* FoodProfileView.swift */,
 			);
 			path = FoodManagerViews;
 			sourceTree = "<group>";
@@ -244,17 +253,20 @@
 				96FBC08127947446001575F1 /* PetProfileView.swift in Sources */,
 				96EEB020278B5CEA00BB728B /* HomeView.swift in Sources */,
 				96EEB03A278B67A700BB728B /* ProfilePicView.swift in Sources */,
-				96EEB02D278B625D00BB728B /* PetProfileModel.swift in Sources */,
 				96FBC07D278BBF83001575F1 /* PetManagerCardView.swift in Sources */,
+				964032ED27A0EF1900B3136E /* FoodProfileView.swift in Sources */,
 				96EEB044278B70EA00BB728B /* CoreData.xcdatamodeld in Sources */,
 				96EEB047278B715B00BB728B /* PetProfileManager.swift in Sources */,
 				96EEB025278B5E2C00BB728B /* HomeImageView.swift in Sources */,
 				96EEB031278B63F000BB728B /* PetManagerView.swift in Sources */,
 				96EEB029278B5EDB00BB728B /* ReusableButtonView.swift in Sources */,
+				96FBC09B279D0DBE001575F1 /* FoodManagerRowView.swift in Sources */,
 				96EEB05B278B85F600BB728B /* AddPetView.swift in Sources */,
 				96FBC08527947C97001575F1 /* FoodManager.swift in Sources */,
 				96FBC07A278BB7DE001575F1 /* PetManagerRowView.swift in Sources */,
 				96EEB00A278B48C000BB728B /* ContentView.swift in Sources */,
+				96FBC093279CE820001575F1 /* FoodManagerView.swift in Sources */,
+				96FBC097279CE82C001575F1 /* AddFoodView.swift in Sources */,
 				96EEB008278B48C000BB728B /* NutritionTracker4PetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
