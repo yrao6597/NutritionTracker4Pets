@@ -4,9 +4,10 @@ import CoreData
 class PetProfileManager: ObservableObject {
     // NSManagedObjectModel: programmatic representation of the .xcdatamodeld file
     // top-level class, responsible for initializing the core data stack (loading the model and stores of the model)
-    // NSPersistentSStoreCoordinator: setup an underlying storage and executes queries on the store
+    // NSPersistentStoreCoordinator: setup an underlying storage and executes queries on the store
     // Managed Object Context: create, load, and manipulate managed objects; executes queries on the store
     let container: NSPersistentContainer
+    
     // published so we can subscribe to it from other places
     @Published var petProfiles: [PetProfile] = []
     static let shared = PetProfileManager()

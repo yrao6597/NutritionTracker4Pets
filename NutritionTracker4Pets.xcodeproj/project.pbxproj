@@ -77,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				964032F927A0FEA000B3136E /* Buttons */,
-				96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */,
 				964032F427A0F81200B3136E /* ReusableSearchBarView.swift */,
 			);
 			path = ReusableViews;
@@ -89,6 +88,7 @@
 				964032FA27A0FEB000B3136E /* SaveButtonView.swift */,
 				964032FE27A0FEC300B3136E /* DeleteButtonView.swift */,
 				9640330127A0FECC00B3136E /* AddButtonView.swift */,
+				96EEB028278B5EDB00BB728B /* ReusableButtonView.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
